@@ -1,6 +1,6 @@
 const { Builder, By, Key, util } = require("selenium-webdriver");
 
-async function googling() {
+async function checking() {
     let driver = await new Builder().forBrowser("chrome").build();
     let assert = require("assert")
     try {
@@ -17,4 +17,4 @@ async function googling() {
     }
 }
 
-googling();
+checking();
